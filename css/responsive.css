@@ -48,7 +48,7 @@ transform: skewX(0deg);
   }
 
   .slider_section .play_btn {
-    top: 20%;
+    top: 18%;
     right: 30%;
   }
 
@@ -109,10 +109,8 @@ transform: skewX(0deg);
     justify-content: center;
   }
   .slider_section .play_btn {
-      top: initial;
-      bottom: 46%;
-      right: 44%;
-      transform: translate(50%, 50%);
+      top: 47%;
+      left: 46%;
   }
 
   .hero_area {
