@@ -20,38 +20,14 @@
 transform: skewX(0deg);
     right: 0%;
   }
-
   .slider_section .carousel-indicators li {
     background-color: #fefefe;
   }
 }
-
 @media (max-width: 992px) {
-
-  .hero_area::after {
-    width: 37%;
-    height: 100%;
-    right: 0%;
+  .hero_area{
+    min-height:450px ;
   }
-
-  #navbarSupportedContent {
-    opacity: 1;
-    transform: none;
-  }
-
-  .sub_page .hero_area::after {
-    display: none;
-  }
-
-  .navbar-toggler {
-    padding: 0.25rem 0;
-  }
-
-  .slider_section .play_btn {
-    top: 18%;
-    right: 30%;
-  }
-
   .header_section .user_option {
     display: none;
   }
@@ -59,24 +35,9 @@ transform: skewX(0deg);
   .custom_menu-btn {
     display: none;
   }
-
-  .navbar-nav {
-    align-items: center;
-  }
-
-  .custom_nav-container .navbar-toggler {
-    margin-left: auto;
-  }
-
-  .custom_nav-container {
-    padding: 15px 0;
-    height: auto;
-  }
-
   .brand_section {
     text-align: center;
   }
-
   .gutters-80 {
     display: flex;
     align-items: center;
@@ -113,6 +74,7 @@ transform: skewX(0deg);
       left: 46%;
   }
 
+  
   .hero_area {
     background: none;
   }
@@ -138,8 +100,6 @@ transform: skewX(0deg);
     bottom: 25px;
   }
 
-
-
   .slider_section .number_box {
     display: none;
   }
@@ -150,9 +110,6 @@ transform: skewX(0deg);
 
   .discount_section .detail-box {
     margin-bottom: 45px;
-  }
-
-  .discount_section .detail-box {
     text-align: center;
   }
 
