@@ -165,34 +165,8 @@ a:focus {
   z-index: 2;
 }
 
-.slider_section .number_box {
-  width: 50px;
-  position: absolute;
-  right: 25px;
-  top: 46%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  
-  align-items: center;
-  color: #ffffff;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 2;
-  font-size: 22px;
-}
 
-.slider_section .number_box::before {
-  content: "";
-  width: 50px;
-  height: 1px;
-  background-color: #ffffff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+
 
 .slider_section .row {
   -webkit-box-align: center;
@@ -203,15 +177,19 @@ a:focus {
 .slider_section .detail-box h1 {
   color: var(--main-color);
   text-transform: uppercase;
+
 }
 
 .slider_section .detail-box h1 span {
   font-size: 5rem;
   color: #252525;
+  font-family: cursive;
 }
 
 .slider_section .detail-box p {
   margin-top: 15px;
+  font-size: larger;
+  color: #737373;
 }
 
 .detail-box .btn-box {
@@ -278,7 +256,7 @@ a:focus {
 
 .slider_section .img-container .img-box img {
   width: 100%;
-
+z-index: 50;
 }
 
 .slider_section .play_btn {
@@ -290,7 +268,7 @@ a:focus {
   width: 75px;
   height: 75px;
   position: absolute;
-  z-index: 2;
+  z-index: 20;
   top: 56%;
   right: 35%;
   transition: 0.3s;
@@ -614,6 +592,7 @@ a:focus {
 /* start skills */
 .my-skills {
   background: #FFF;
+  padding-bottom: 40px;
 }
 .my-skills .container{
   margin-bottom: 30px;
@@ -739,8 +718,11 @@ text-transform: uppercase;
 .services .box {
   box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
   transition: 0.3s;
-  margin-top: 10px;
+  margin: 10px 0;
+  height: 320px;
   position: relative;
+  padding: 50px 10px;
+  border-radius: 20px;
 }
 .services .box::after{
   content: '';
@@ -760,13 +742,17 @@ transition: 0.3s;
   left: 0;
 }
 .services .box h4 {
-  background: var(--main-color);
+  color: var(--main-color);
   margin: 0;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .services .box blockquote {
   border-left: none;
+  
+}
+.services p {
+font-size: 18px;
 }
 
 
@@ -816,6 +802,9 @@ transition: 0.3s;
 .portfolio{
   padding-bottom: 100px;
 }
+.portfolio p{
+  font-size: 18px;
+}
 .portfolio .button{
   display: inline-block;
   padding: 12px 45px 8px 45px;
@@ -833,11 +822,14 @@ transition: 0.3s;
   overflow: hidden;
   margin-bottom: 40px;
 transition: 0.3s;
+width: 370px;
+height: 200px;
 }
 
 .portfolio__single-section__image{
  display: block;
- height: auto;
+ width: 100%;
+ height: 100%;
 }
 
 .portfolio__single-section h4{
@@ -1106,7 +1098,7 @@ form#contact button:hover {
 
 .footer_section p {
   border-top: 1px solid #ffffff;
-  width: 60%;
+  width: fit-content;
   color: #ffffff;
   margin: 0 auto;
   text-align: center;

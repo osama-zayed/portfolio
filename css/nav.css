@@ -116,13 +116,38 @@ nav img {
   box-sizing: border-box;
   transition: all 0.35s;
   background-color: #ffffff;
-  transform: translateX(400px);
-  max-width: 80vw;
+  transform: translateX(100%);
   top: 0px;
-  width: 400px;
+  max-width: 80vw;
+  width: 100%;
   position: fixed;
   height: 100vh;
+  padding-top:10px;
 }
+
+
+#verticalMenu li>a{
+  margin: auto;
+  font-size: 25px;
+}
+#verticalMenu li p{
+  margin: auto;
+  width: fit-content;
+}
+#verticalMenu h3 {
+width: 185px;
+}
+#verticalMenu h3 a{
+width: fit-content;
+color: var(--main-color);
+}
+#verticalMenu h3 a:hover{
+color: var(--main-color2);
+}
+#verticalMenu img{
+width: 30px;
+}
+
 
 .navMenuLinkContent {
   padding: 10px 16px;
@@ -190,6 +215,7 @@ nav img {
 
 .info_contact a {
   color: #ffffff;
+
 }
 
 .slider_section {
