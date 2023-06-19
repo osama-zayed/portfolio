@@ -19,7 +19,9 @@ a{
 }
 
 body {
-  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'IBM Plex Serif', serif;
+  font-family: 'Roboto', sans-serif;
   position: relative;
   font-weight: 400;
   background: #fff;
