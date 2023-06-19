@@ -52,6 +52,13 @@
   .slider_section .container {
     max-width: 750px;
   }
+  .slider_section .detail-box h1 {
+    font-size:3rem;
+  }
+  .slider_section .detail-box h1 span {
+    font-size: 4rem;
+    width: 600px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -80,7 +87,7 @@
 
   .slider_section .play_btn {
     top: 47%;
-    left: 45%;
+    left: 43%;
   }
 
 
@@ -89,11 +96,12 @@
   }
 
   .slider_section {
-    padding-top: 35px;
+    padding-top: 50px;
   }
 
   .slider_section .detail-box h1 span {
     font-size: 4rem;
+    width: fit-content;
   }
 
   .slider_section .img-box {

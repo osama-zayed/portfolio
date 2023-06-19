@@ -1,0 +1,12 @@
+/* start header */
+nav .container,
+.portfolio,
+#about__content,
+#contact,
+.services {
+    direction: rtl;
+}
+
+#menuToggle:checked~#menuButton {
+    left: 0;
+}

@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: Lemonada,'Cairo','sans-serif';
+  /* font-family: 'Lemonada', cursive; */
 }
 
 a {
@@ -39,10 +40,12 @@ nav .container {
   display: flex;
   align-items: center;
   height: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
 
 }
-
+#menuToggle:checked~#menuButton {
+  right: 0;
+}
 .lg_nav {
   display: flex;
   justify-content: space-between;
@@ -57,21 +60,49 @@ nav .container {
   font-size: 25px;
   padding-top: 0;
   min-width: fit-content;
+
 }
-
-nav img {
-
-  width: 40px;
+.lg_nav h3 a{
+  color: var(--main-color);
+  transition: 0.5s;
+}
+.lg_nav h3 a:hover{
+  color: var(--main-color2);
+}
+@media (max-width: 992px) {
+  .lg_nav a {
+    font-size: 15px;
+  }
+  .lg_nav h3 {
+    margin: 0 5px;
+    font-size: 20px;
+  }
+  
+}
+#menuButtonIcon i {
+ font-size: 30px;
   margin: 10px 30px;
+  transition: 0.5s;
+  color:  var(--main-color);
+}
+#menuButtonIcon i:hover {
+  color:  var(--main-color2);
 }
 
 #horizontalMenu {
   display: flex;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #horizontalMenu {
     display: none;
+  }
+  .lg_nav a {
+    font-size: 20px;
+  }
+  .lg_nav h3 {
+    margin: 0 30px;
+    font-size: 20px;
   }
 }
 
@@ -95,7 +126,7 @@ nav img {
   transform: translateX(0px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
 
   #menuButton,
   #verticalMenu {
@@ -128,24 +159,25 @@ nav img {
 
 #verticalMenu li>a{
   margin: auto;
-  font-size: 25px;
+  font-size: 18px;
 }
 #verticalMenu li p{
   margin: auto;
   width: fit-content;
+  font-size: 12px;
 }
+
 #verticalMenu h3 {
-width: 185px;
+  min-width: fit-content;
+  margin: 20px;
 }
 #verticalMenu h3 a{
 width: fit-content;
 color: var(--main-color);
+transition: 0.5s;
 }
 #verticalMenu h3 a:hover{
 color: var(--main-color2);
-}
-#verticalMenu img{
-width: 30px;
 }
 
 
