@@ -19,7 +19,7 @@ a{
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   position: relative;
   font-weight: 400;
   background: #fff;
@@ -53,7 +53,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'lato', sans-serif;
+  /* font-family: 'lato', sans-serif; */
   font-weight: 700;
   text-rendering: optimizelegibility;
 }
@@ -178,12 +178,14 @@ a:focus {
 .slider_section .detail-box h1 {
   color: var(--main-color);
   text-transform: uppercase;
-
+padding: 5px;
 }
 
 .slider_section .detail-box h1 span {
   font-size: 5rem;
   color: #252525;
+  padding: 10px 0 0 0;
+  display: inline-block;
 }
 
 .slider_section .detail-box p {
@@ -292,9 +294,9 @@ z-index: 50;
   z-index: 5;
 }
 
-.slider_section .play_btn img {
-  width: 20px;
-  margin-left: 3px;
+.slider_section .play_btn i {
+  font-size: 30px;
+  margin-left: 4px;
 
 }
 
@@ -572,7 +574,6 @@ z-index: 50;
 .about__bio strong {
   font-size: 15px;
   color: #2c4055;
-  font-family: Roboto-Light;
 }
 
 .about .detail-box .btn-box {
@@ -598,17 +599,19 @@ z-index: 50;
   margin-bottom: 30px;
 }
 .my-skills .skill {
-  margin: 0px 20px 10px;
-  height: 50px;
+  margin: 10px 20px 10px;
+  height: 53px;
 }
 
-.my-skills .skill h3 {
+.my-skills .skill h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 24px;
+  margin-bottom: 3px;
 }
 
-.my-skills .skill h3 span {
+.my-skills .skill h5 span {
   font-size: 12px;
   border: 1px solid #ccc;
   padding: 3px 5px;
@@ -618,14 +621,15 @@ z-index: 50;
   display: none;
 }
 
-.my-skills .skill:hover>h3 span {
+.my-skills .skill:hover>h5 span {
   display: inline-block;
 }
 
 .my-skills .skill .the-progress {
-  height: 20px;
+  height: 23px;
   background-color: #eee;
   position: relative;
+
 }
 
 .my-skills .skill .the-progress span {
@@ -719,7 +723,7 @@ text-transform: uppercase;
   box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
   transition: 0.3s;
   margin: 10px 0;
-  height: 320px;
+  height: 350px;
   position: relative;
   padding: 50px 10px;
   border-radius: 20px;
@@ -775,7 +779,6 @@ font-size: 18px;
 
 .button--colorful{
  background-color: var(--main-color);
- font-family: Roboto-Light;
  color: #fff;
 }
 
@@ -783,6 +786,7 @@ font-size: 18px;
   color: #455a64;
   border: 1px solid #455a64;
   margin-right: 15px;
+  transition: 0.3s;
 }
 
 .button--default:hover{
@@ -832,27 +836,29 @@ height: 200px;
  height: 100%;
 }
 
-.portfolio__single-section h4{
+.portfolio__single-section p{
  font-size: 20px;
- font-family: Roboto-Light;
+
  font-weight: bold;
  color: #fff;
  
 }
 
 
-.portfolio__single-section__search-icon{
+.portfolio__single-section__search-icon i{
  position: absolute;
  left: 45%;
  top: 50%;
  -webkit-transform: translateY(-50%);
  transform: translateY(-50%);
+ font-size: 40px;
+ color: #fff;
 }
 
 .portfolio__single-section .overlay-content{
   position: absolute;
   bottom: 10px;
-  margin-left: 30px;
+  margin: 0 30px;
   z-index: 10;
 }
 
@@ -1021,7 +1027,7 @@ form#contact button:hover {
 .info_section {
   background-color: #201f33;
   color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 .info_section h4 {
@@ -1070,8 +1076,13 @@ form#contact button:hover {
   margin: 0 5px;
 }
 
-.info_social .social_container a img {
-  width: 35px;
+.info_social .social_container a i {
+  font-size: 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+.info_social .social_container a:hover i {
+  color: var(--main-color);
 }
 
 .info_contact > div {
@@ -1083,10 +1094,10 @@ form#contact button:hover {
           align-items: flex-start;
 }
 
-.info_contact > div img {
-  width: 20px;
-  height: auto;
+.info_contact  div i {
+  font-size: 25px;
   margin-right: 12px;
+  height: auto;
 }
 
 /* footer section*/

@@ -30,7 +30,7 @@
 }
 
 .demo-style-switch ul {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     padding: 0;
     list-style: none;
 }
@@ -129,3 +129,29 @@
     cursor: pointer;
     text-decoration: none;
 }
+.demo-style-switch button{
+    display: inline-block;
+    padding: 3px 10px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin: 0 10px 0 5px;
+    width: 90%;
+    text-align: center;
+    font-size: 17px;
+}
+.demo-style-switch button i{
+    margin: 1px 6px 2px 8px;
+    height: 29%;
+    width: 10px;
+    font-size: 26px;
+    padding: 4px 23px 5px 0;
+}
+.demo-style-switch button:hover {
+    background-color: transparent;
+    border-color: var(--main-color);
+    color: var(--main-color);
+  }
