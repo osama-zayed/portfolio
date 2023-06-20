@@ -46,7 +46,14 @@ nav .container,
 }
 
 .info_contact div i {
-
     margin-right: 0;
     margin-left: 12px;
+}
+
+form#contact button {
+padding-right: 40%;
+}
+form#contact .user-label{
+right: 15px;
+width: fit-content;
 }
