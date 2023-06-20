@@ -105,7 +105,7 @@ function arabic() {
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://osama-zayed.github.io/portfolio/contect.html">
 
-    <button type="submit" class="main-button col-lg-12">
+    <button type="submit" class="main-button col-lg-12 col-md-12 justify-content-center"">
         <div class="svg-wrapper-1">
             <div class="svg-wrapper">
                 <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -298,7 +298,7 @@ function english() {
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://osama-zayed.github.io/portfolio/contect.html">
 
-    <button type="submit" class="main-button col-lg-12">
+    <button type="submit" class="main-button col-lg-12 col-md-12 justify-content-center"">
         <div class="svg-wrapper-1">
             <div class="svg-wrapper">
                 <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

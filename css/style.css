@@ -1016,7 +1016,6 @@ form#contact button {
   background:var(--main-color);
   color: white;
   padding: 0.7em 1em;
-  padding-left: 40%;
   display: flex;
   align-items: center;
   border: none;
