@@ -98,7 +98,9 @@ function arabic() {
 `;
     document.getElementById("Social_Link").innerHTML = "تواصل اجتماعي";
     document.getElementById("info_contact_Address").innerHTML = "السكن";
-    document.getElementById("info_contact_menu").innerHTML = `<div class="info_links pl-lg-5"><h4>   القائمة
+    document.getElementById("Address_loc").innerHTML = "صنعاء,اليمن";
+    document.getElementById("info_contact_menu").innerHTML = `
+    <div class="info_links pl-lg-5" "><h4>   القائمة
 </h4>
 <ul>
     <li class="">
@@ -127,7 +129,7 @@ function arabic() {
     </li>
 </ul>
 </div>`;
-
+document.getElementById("Created_by").innerHTML = ` &copy; صنع بواسطة <a href="index.html">اسامة زايد</a>`;
 
     // document.getElementById("large").innerHTML = "";
 }
@@ -288,11 +290,12 @@ function english() {
         </li>
     </ul>
     `;
+    document.getElementById("Created_by").innerHTML = `  &copy; Created by <a href="index.html">Osama Zayed</a>`;
 
 
     // document.getElementById("large").innerHTML = "";
 }
-// الحصول على اللغة المفضلة للمستخدم
+
 
 
 
@@ -311,14 +314,15 @@ function mod($num) {
     if (xCookie) {
         // احصل على قيمته
         var xValue = xCookie.split('=')[1].trim();
-
+console.log(xValue);
         // إذا كانت قيمته تساوى 1
-        if (xValue === '1') {
+        if (xValue == '1') {
             document.getElementById("arabic").disabled = false;
             arabic();
             lan.innerHTML = `<button class="mod"  onclick="mod(2)"  >
         English <i class="fa fa-globe" aria-hidden="true"></i>
         </button> ` ;
+        userLang.includes("ar");
         } else {
             document.getElementById("arabic").disabled = true;
 
@@ -336,6 +340,7 @@ function mod($num) {
 if (document.cookie.indexOf("visited") >= 0) {
     // If the cookie exists, do nothing
 } else {
+    // الحصول على اللغة المفضلة للمستخدم
     const userLang = navigator.language || navigator.userLanguage;
     if (userLang.includes("ar")) {
         document.cookie = "Language_cook=1";

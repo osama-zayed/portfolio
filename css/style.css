@@ -585,7 +585,7 @@ z-index: 50;
 }
 
 .about .detail-box .btn-box a {
-  width: fit-content;
+min-width: fit-content;
   padding: 10px;
 }
 
