@@ -84,17 +84,41 @@ function arabic() {
     document.getElementById("contact_me").innerHTML = `تواصل <span class="title2">بي</span>`;
     document.getElementById("contact_me_content").innerHTML = `املاء نموذج التواصل واخبرني كيف يمكنني مساعدتك وسيتم الرد عليك في اسرع وقت `;
     document.getElementById("contact").innerHTML = `
-<input type="hidden" name="_subject" value="New submission!">
-<input type="text" name="name" placeholder="الاسم" class="col-lg-12" required>
-<!-- <input type="surname" name="surname" id="surname" placeholder="Surname" class="col-lg-6"> -->
-<input type="email" name="email" class="col-lg-6" placeholder="الايميل" required>
-<input type="text" name="phone_number" id="subject" placeholder="رقم التلفون" class="col-lg-6"
-    required>
-<textarea name="message" class="form-control col-lg-6" placeholder="الرسالة"
-    required></textarea>
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_next" value="https://osama-zayed.github.io/portfolio/contect.html">
-<button type="submit" class="main-button col-lg-12">ارسال</button>
+    <input type="hidden" name="_subject" value="New submission!">
+    <div class="input-group col-lg-12">
+        <input type="text" name="name" class="col-lg-12 input" autocomplete="off" id="contact_name"
+            required>
+        <label class="user-label ">الاسم</label>
+    </div>
+    <div class="input-group col-lg-6">
+        <input type="email" name="email" class=" input" autocomplete="off" id="contact_email"
+            required>
+        <label class="user-label">الايميل</label>
+    </div>
+    <div class="input-group col-lg-6">
+        <input type="text" name="phone_number" placeholder="" id="contact_number" class=" input"
+            autocomplete="off" id="contact_email" required>
+        <label class="user-label">رقم التلفون</label>
+    </div>
+    <textarea name="message" class="form-control col-lg-6" placeholder="الرسالة"
+        id="contact_message" required></textarea>
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://osama-zayed.github.io/portfolio/contect.html">
+
+    <button type="submit" class="main-button col-lg-12">
+        <div class="svg-wrapper-1">
+            <div class="svg-wrapper">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <span id="contact_send">ارسال</span>
+    </button>
+
 `;
     document.getElementById("Social_Link").innerHTML = "تواصل اجتماعي";
     document.getElementById("info_contact_Address").innerHTML = "السكن";
@@ -131,6 +155,15 @@ function arabic() {
 </div>`;
 document.getElementById("Created_by").innerHTML = ` &copy; صنع بواسطة <a href="index.html">اسامة زايد</a>`;
 
+//     document.getElementById("loding").innerHTML = `
+//     <div class="text-center " dir="rtl">
+//     <p class="loader-letters" style="animation: var(--effect);">
+// جاري التحميل</p>
+
+// </div>
+// <div class="loader text-center " style="animation: rotate 1s infinite; height: 50px; width: 50px;"></div>
+
+//     `;
     // document.getElementById("large").innerHTML = "";
 }
 function english() {
@@ -140,7 +173,7 @@ function english() {
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#home">Home</a></li>
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#about">about </a></li>
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#skills">skills </a></li>
-                    <li class="navMenuLink"><a class="navMenuLinkContent" href="#services">service </a></li>
+                    <li class="navMenuLink"><a class="navMenuLinkContent" href="#services">services </a></li>
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#portfolio"> portfolio </a></li>
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact">Contact</a></li>   `;
     document.getElementById("verticalMenu").innerHTML = `
@@ -156,7 +189,7 @@ function english() {
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#home">Home</a></li>
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#about">about </a></li>
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#skills">skills </a></li>
-<li class="navMenuLink"><a class="navMenuLinkContent" href="#services">service </a></li>
+<li class="navMenuLink"><a class="navMenuLinkContent" href="#services">services </a></li>
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#portfolio"> portfolio </a></li>
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact">Contact</a></li>
 <li class="navMenuLink mt-5">
@@ -245,16 +278,39 @@ function english() {
     I Will Help You Choose What Suits Your Specific Needs!`;
     document.getElementById("contact").innerHTML = `
     <input type="hidden" name="_subject" value="New submission!">
-    <input type="text" name="name" placeholder="Name" class="col-lg-12"  id="contact_name" required>
-    <!-- <input type="surname" name="surname" id="surname" placeholder="Surname" class="col-lg-6"> -->
-    <input type="email" name="email" class="col-lg-6" placeholder="Your Email" id="contact_email" required>
-    <input type="text" name="phone_number" id="subject" placeholder="Phone number" id="contact_number" class="col-lg-6"
-        required>
-    <textarea name="message" class="form-control col-lg-6" placeholder="Message" id="contact_message"
-        required></textarea>
+    <div class="input-group col-lg-12">
+        <input type="text" name="name" class="col-lg-12 input" autocomplete="off" id="contact_name"
+            required>
+        <label class="user-label ">Name</label>
+    </div>
+    <div class="input-group col-lg-6">
+        <input type="email" name="email" class=" input" autocomplete="off" id="contact_email"
+            required>
+        <label class="user-label">Your Email</label>
+    </div>
+    <div class="input-group col-lg-6">
+        <input type="text" name="phone_number" placeholder="" id="contact_number" class=" input"
+            autocomplete="off" id="contact_email" required>
+        <label class="user-label">Phone number</label>
+    </div>
+    <textarea name="message" class="form-control col-lg-6" placeholder="Message"
+        id="contact_message" required></textarea>
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://osama-zayed.github.io/portfolio/contect.html">
-    <button type="submit" class="main-button col-lg-12" id="contact_send">Send Now</button>
+
+    <button type="submit" class="main-button col-lg-12">
+        <div class="svg-wrapper-1">
+            <div class="svg-wrapper">
+                <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path
+                        d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                        fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <span id="contact_send">Send</span>
+    </button>
 `;
     document.getElementById("Social_Link").innerHTML = "  Social Link";
     document.getElementById("info_contact_Address").innerHTML = " Address";
@@ -292,6 +348,26 @@ function english() {
     `;
     document.getElementById("Created_by").innerHTML = `  &copy; Created by <a href="index.html">Osama Zayed</a>`;
 
+//     document.getElementById("loding").innerHTML = `
+//     <div class="text-center ">
+//     <p class="loader-letters" style="animation: var(--effect);">
+//         l</p>
+//     <p class="loader-letters" style="animation: var(--effect) .125s;">
+//         o</p>
+//     <p class="loader-letters" style="animation: var(--effect) .25s;">
+//         a</p>
+//     <p class="loader-letters" style="animation: var(--effect) .375s;">
+//         d</p>
+//     <p class="loader-letters" style="animation: var(--effect) .5s;">
+//         i</p>
+//     <p class="loader-letters" style="animation: var(--effect) .675s;">
+//         n</p>
+//     <p class="loader-letters" style="animation: var(--effect) .75s;">
+//         g</p>
+// </div>
+// <div class="loader text-center " style="animation: rotate 1s infinite; height: 50px; width: 50px;"></div>
+
+//     `;
 
     // document.getElementById("large").innerHTML = "";
 }
@@ -322,7 +398,6 @@ console.log(xValue);
             lan.innerHTML = `<button class="mod"  onclick="mod(2)"  >
         English <i class="fa fa-globe" aria-hidden="true"></i>
         </button> ` ;
-        userLang.includes("ar");
         } else {
             document.getElementById("arabic").disabled = true;
 
