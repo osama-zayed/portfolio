@@ -7,7 +7,7 @@ function arabic() {
     <li class="navMenuLink"><a class="navMenuLinkContent" href="#skills">المهارات</a></li>
     <li class="navMenuLink"><a class="navMenuLinkContent" href="#services">الخدمات</a></li>
     <li class="navMenuLink"><a class="navMenuLinkContent" href="#portfolio">معرض اعمالي</a></li>
-    <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact">التواصل</a></li>
+    <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact_sec">التواصل</a></li>
     `;
     document.getElementById("verticalMenu").innerHTML = `<div class="mb-4 d-flex justify-content-around p-3">
     <h3><a href="index.html">اسامه </a></h3>
@@ -23,7 +23,7 @@ function arabic() {
     <li class="navMenuLink"><a class="navMenuLinkContent" href="#skills">المهارات</a></li>
     <li class="navMenuLink"><a class="navMenuLinkContent" href="#services">الخدمات</a></li>
     <li class="navMenuLink"><a class="navMenuLinkContent" href="#portfolio">معرض اعمالي</a></li>
-    <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact">التواصل</a></li>
+    <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact_sec">التواصل</a></li>
 <li class="navMenuLink mt-5">
     <p>موبايل :
         <a href="tel:+967775561590" target="_blank" dir="ltr">
@@ -147,7 +147,7 @@ function arabic() {
         <a class="" href="#portfolio">الاعمال</a>
     </li>
     <li class="active">
-        <a href="#contact">
+        <a href="#contact_sec">
             التواصل
         </a>
     </li>
@@ -175,7 +175,7 @@ function english() {
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#skills">skills </a></li>
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#services">services </a></li>
                     <li class="navMenuLink"><a class="navMenuLinkContent" href="#portfolio"> portfolio </a></li>
-                    <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact">Contact</a></li>   `;
+                    <li class="navMenuLink"><a class="navMenuLinkContent" href="#contact_sec">Contact</a></li>   `;
     document.getElementById("verticalMenu").innerHTML = `
     <div class="mb-4 d-flex justify-content-around p-2 w-fit-content">
     <h3><a href="index.html">Osama</a></h3>
@@ -191,7 +191,7 @@ function english() {
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#skills">skills </a></li>
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#services">services </a></li>
 <li class="navMenuLink"><a class="navMenuLinkContent" href="#portfolio"> portfolio </a></li>
-<li class="navMenuLink"><a class="navMenuLinkContent" href="#contact">Contact</a></li>
+<li class="navMenuLink"><a class="navMenuLinkContent" href="#contact_sec">Contact</a></li>
 <li class="navMenuLink mt-5">
     <p>Mobile:
         <a href="tel:+967775561590" target="_blank">
@@ -340,7 +340,7 @@ function english() {
             <a class="" href="#portfolio">Portfolio </a>
         </li>
         <li class="active">
-            <a href="#contact">
+            <a href="#contact_sec">
                 Contact My
             </a>
         </li>
@@ -390,7 +390,7 @@ function mod($num) {
     if (xCookie) {
         // احصل على قيمته
         var xValue = xCookie.split('=')[1].trim();
-console.log(xValue);
+
         // إذا كانت قيمته تساوى 1
         if (xValue == '1') {
             document.getElementById("arabic").disabled = false;
