@@ -53,7 +53,7 @@ function arabic() {
     document.getElementById("about_btn2").innerHTML = `تواصل بي`;
     document.getElementById("about_my_self").innerHTML = ` <div class="col-md-6 col-lg-5">
     <p class="about__bio"><strong>الاسم :</strong> أسامه زايد</p>
-    <p class="about__bio"><strong>العمر :</strong> 21</p>
+    <p class="about__bio"><strong>العمر :</strong> 22</p>
 </div>
 <div class="col-md-6 col-lg-5">
     <p class="about__bio"><strong>الوظيفة :</strong>مطور برمجيات</p>
@@ -241,7 +241,7 @@ function english() {
     document.getElementById("about_my_self").innerHTML = ` 
     <div class="col-md-6 col-lg-5">
     <p class="about__bio"><strong>NAME :</strong> Osama Zayed</p>
-    <p class="about__bio"><strong>AGE :</strong> 21</p>
+    <p class="about__bio"><strong>AGE :</strong> 22</p>
 </div>
 <div class="col-md-6 col-lg-5">
     <p class="about__bio"><strong>JOB : </strong>Software Developers</p>
