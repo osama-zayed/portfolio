@@ -75,12 +75,19 @@ function arabic() {
     document.getElementById("button_portfolio_web").innerHTML = `المواقع`;
     document.getElementById("button_portfolio_system").innerHTML = `الانظمة`;
     document.getElementById("button_portfolio_mobile").innerHTML = `تطبيقات الموبايل`;
-    document.getElementById("WEBSITE_DESIGN1").innerHTML = "تصميم موقع";
-    document.getElementById("WEBSITE_DESIGN2").innerHTML = "تصميم موقع";
-    document.getElementById("Online_Store").innerHTML = "متجر الكتروني";
-    document.getElementById("System").innerHTML = "نظام مبيعات";
+    document.getElementById("Commercial_site").innerHTML = "موقع تجاري";
+    document.getElementById("E-commerce1").innerHTML = "متجر الكتروني";
+    document.getElementById("E-commerce2").innerHTML = "متجر الكتروني";
+    document.getElementById("Sales_system").innerHTML = "نظام مبيعات";
     document.getElementById("Mobile_Application1").innerHTML = "تطبيق موبايل";
     document.getElementById("Mobile_Application2").innerHTML = "تطبيق موبايل";
+    document.getElementById("Web_Server1").innerHTML = "خادم ويب";
+    document.getElementById("Web_Server2").innerHTML = "خادم ويب";
+    document.getElementById("Control_Panel1").innerHTML = "لوحة تحكم";
+    document.getElementById("Control_Panel2").innerHTML = "لوحة تحكم";
+    document.getElementById("Educational_site1").innerHTML = "موقع تعليمي";
+    document.getElementById("Educational_site2").innerHTML = "موقع تعليمي";
+    
     document.getElementById("contact_me").innerHTML = `تواصل <span class="title2">بي</span>`;
     document.getElementById("contact_me_content").innerHTML = `املاء نموذج التواصل واخبرني كيف يمكنني مساعدتك وسيتم الرد عليك في اسرع وقت `;
     document.getElementById("contact").innerHTML = `
@@ -226,7 +233,9 @@ function english() {
     </a>
 </div>`;
     document.getElementById("about_title").innerHTML = `ABOUT <span class="title2"> ME</span>`;
-    document.getElementById("about_title_co").innerHTML = ` Technology. I work on developing and
+    document.getElementById("about_title_co").innerHTML = ` My name is Osama I am a student
+    majoring in Information
+    Technology. I work on developing and
     designing software using a variety of
     programming languages and technical tools. `;
     document.getElementById("about__content").innerHTML = `   have experience in creating desktop
@@ -266,12 +275,19 @@ function english() {
     document.getElementById("button_portfolio_system").innerHTML = `Systems`;
     document.getElementById("button_portfolio_mobile").innerHTML = `Mobile
     Application`;
-    document.getElementById("WEBSITE_DESIGN1").innerHTML = "WEBSITE DESIGN";
-    document.getElementById("WEBSITE_DESIGN2").innerHTML = "WEBSITE DESIGN";
-    document.getElementById("Online_Store").innerHTML = "Online Store";
-    document.getElementById("System").innerHTML = "System";
+    document.getElementById("Commercial_site").innerHTML = "Commercial site";
+    document.getElementById("E-commerce1").innerHTML = "E-commerce";
+    document.getElementById("E-commerce2").innerHTML = "E-commerce";
+    document.getElementById("Web_Server1").innerHTML = "Web Server";
+    document.getElementById("Web_Server2").innerHTML = "Web Server";
     document.getElementById("Mobile_Application1").innerHTML = "Mobile Application";
     document.getElementById("Mobile_Application2").innerHTML = "Mobile Application";
+    document.getElementById("Control_Panel1").innerHTML = "Control Panel";
+    document.getElementById("Control_Panel2").innerHTML = "Control Panel";
+    document.getElementById("Educational_site1").innerHTML = "Educational site";
+    document.getElementById("Educational_site2").innerHTML = "Educational site";
+    document.getElementById("Sales_system").innerHTML = "Sales system";
+    
     document.getElementById("contact_me").innerHTML = `contact<span class="title2"> Me</span>`;
     document.getElementById("contact_me_content").innerHTML = `Fill Out The Contact Form To
     Contact me
