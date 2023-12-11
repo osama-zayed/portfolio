@@ -1,6 +1,6 @@
 :root {
-  --main-color: #24d278;
-  --main-color2: #24d27852;
+	--main-color:  #0196a7;
+	--main-color2:  #0196a752;
 }
 * {
   -webkit-box-sizing: border-box;
@@ -320,7 +320,7 @@ z-index: 50;
   animation: before-animation 1500ms infinite;
 }
 
-@-webkit-keyframes before-animation {
+@keyframes before-animation {
   0% {
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -727,6 +727,7 @@ text-transform: uppercase;
   position: relative;
   padding: 50px 10px;
   border-radius: 20px;
+  overflow: hidden;
 }
 .services .box::after{
   content: '';
@@ -737,13 +738,16 @@ background: var(--main-color);
 height: 4px;
 width: 0%;
 transition: 0.3s;
+
 }
 .services .box:hover {
   transform: translateY(-10px);
+
 }
 .services .box:hover::after {
   width: 100%;
   left: 0;
+  
 }
 .services .box h4 {
   color: var(--main-color);
