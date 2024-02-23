@@ -47,8 +47,13 @@ function arabic() {
 <a href="#about" class="btn-1">عني</a>
 <a href="tel:+967775561590" class="btn-2" target="_blank">تواصل بي</a></div>`;
     document.getElementById("about_title").innerHTML = `نبذه<span class="title2"> عني</span>`;
-    document.getElementById("about_title_co").innerHTML = ` أنا أسامة، طالب في تخصص تقنية المعلومات. أعمل على تطوير وتصميم البرمجيات باستخدام مجموعة متنوعة من اللغات البرمجية والأدوات التقنية`;
-    document.getElementById("about__content").innerHTML = `        لدي خبرة في إنشاء برامج سطح المكتب وتطبيقات الهاتف المحمول والويب، كما أن لدي مهارات في إدارة قواعد البيانات وتحليل البيانات. أسعى دائمًا لتحسين مهاراتي والابتكار في حلول التكنولوجيا لتلبية احتياجات المستخدمين.`;
+    document.getElementById("about_title_co").innerHTML = `اسمي أسامة، ودرست تخصص تكنولوجيا المعلومات. أنا عضو في مجتمع المطورين في جوجل، وأعمل كمستقل في مجال تطوير المواقع وأنظمة الويب . أستخدم لغات برمجة مختلفة لإنشاء حلول مبتكرة لعملائي.
+    `;
+    document.getElementById("about__content").innerHTML = `لقد قمت بالتعرف على مجالات مختلفة في مجال التكنولوجيا، مثل تطوير التطبيقات المحمولة والفرونت إند، وأهمية المفاهيم المتعلقة بتجربة المستخدم وتصميم الواجهة الجذابة. كما قمت بدراسة مفاهيم أساسية في الأمان السيبراني. هذا الاطلاع ساعدني على فهم تفاصيل أكثر حول تواصل البرامج وطرق عمل برامج ذات جودة أفضل.
+
+    كان من السهولة بالنسبة لي دراسة هذه المجالات لأنني كنت أمتلك أساسًا برمجيًا جيدًا. قمت بحل العديد من المشاكل البرمجية قبل أن أتخصص في أي مجال محدد. ومع ذلك، يبقى تركيزي الأساسي في الباك إند، لأنني أشعر بأني ميّزت نفسي في هذا الجانب، وأجد المتعة في التعامل مع قواعد البيانات. لدي خبرة تزيد عن سنة في هذا المجال، وقد قمت بتطوير العديد من المشاريع خلال هذه الفترة.
+    أهدافي هي التفوق في صناعة البرمجيات وتوسيع مهاراتي ومعرفتي باستمرار، مع تحدي الجديد والمبتكر.
+    `;
     document.getElementById("about_btn1").innerHTML = ` تنزيل السيره الذاتية`;
     document.getElementById("about_btn2").innerHTML = `تواصل بي`;
     document.getElementById("about_my_self").innerHTML = ` <div class="col-md-6 col-lg-5">
@@ -75,19 +80,8 @@ function arabic() {
     document.getElementById("button_portfolio_web").innerHTML = `المواقع`;
     document.getElementById("button_portfolio_system").innerHTML = `الانظمة`;
     document.getElementById("button_portfolio_mobile").innerHTML = `تطبيقات الموبايل`;
-    document.getElementById("Commercial_site").innerHTML = "موقع تجاري";
-    document.getElementById("E-commerce1").innerHTML = "متجر الكتروني";
-    document.getElementById("E-commerce2").innerHTML = "متجر الكتروني";
-    document.getElementById("Sales_system").innerHTML = "نظام مبيعات";
-    document.getElementById("Mobile_Application1").innerHTML = "تطبيق موبايل";
-    document.getElementById("Mobile_Application2").innerHTML = "تطبيق موبايل";
-    document.getElementById("Web_Server1").innerHTML = "خادم ويب";
-    document.getElementById("Web_Server2").innerHTML = "خادم ويب";
-    document.getElementById("Control_Panel1").innerHTML = "لوحة تحكم";
-    document.getElementById("Control_Panel2").innerHTML = "لوحة تحكم";
-    document.getElementById("Educational_site1").innerHTML = "موقع تعليمي";
-    document.getElementById("Educational_site2").innerHTML = "موقع تعليمي";
-    
+
+
     document.getElementById("contact_me").innerHTML = `تواصل <span class="title2">بي</span>`;
     document.getElementById("contact_me_content").innerHTML = `املاء نموذج التواصل واخبرني كيف يمكنني مساعدتك وسيتم الرد عليك في اسرع وقت `;
     document.getElementById("contact").innerHTML = `
@@ -160,17 +154,17 @@ function arabic() {
     </li>
 </ul>
 </div>`;
-document.getElementById("Created_by").innerHTML = ` &copy; صنع بواسطة <a href="index.html">اسامة زايد</a>`;
+    document.getElementById("Created_by").innerHTML = ` &copy; صنع بواسطة <a href="index.html">اسامة زايد</a>`;
 
-//     document.getElementById("loding").innerHTML = `
-//     <div class="text-center " dir="rtl">
-//     <p class="loader-letters" style="animation: var(--effect);">
-// جاري التحميل</p>
+    //     document.getElementById("loding").innerHTML = `
+    //     <div class="text-center " dir="rtl">
+    //     <p class="loader-letters" style="animation: var(--effect);">
+    // جاري التحميل</p>
 
-// </div>
-// <div class="loader text-center " style="animation: rotate 1s infinite; height: 50px; width: 50px;"></div>
+    // </div>
+    // <div class="loader text-center " style="animation: rotate 1s infinite; height: 50px; width: 50px;"></div>
 
-//     `;
+    //     `;
     // document.getElementById("large").innerHTML = "";
 }
 function english() {
@@ -233,18 +227,12 @@ function english() {
     </a>
 </div>`;
     document.getElementById("about_title").innerHTML = `ABOUT <span class="title2"> ME</span>`;
-    document.getElementById("about_title_co").innerHTML = ` My name is Osama I am a student
-    majoring in Information
-    Technology. I work on developing and
-    designing software using a variety of
-    programming languages and technical tools. `;
-    document.getElementById("about__content").innerHTML = `   have experience in creating desktop
-    applications, mobile phone applications, and
-    web applications. Additionally, I possess
-    strong skills in managing databases and
-    analyzing data. I always strive to improve my
-    skills and innovate technology solutions to
-    meet the needs of users.`;
+    document.getElementById("about_title_co").innerHTML = ` My name is Osama, and I have studied Information Technology. I am a core tame of the developer community at Google, and I work as a freelancer in the field of web development and systems. I use various programming languages to create innovative solutions for my clients.`;
+    document.getElementById("about__content").innerHTML = `I have explored different areas in the field of technology, such as mobile application development, front-end development, and the importance of user experience and attractive interface design. I have also studied fundamental concepts in cybersecurity. This knowledge has helped me understand more about software communication and methods for developing high-quality programs.
+
+    It was easy for me to study these areas because I already had a strong programming foundation. I solved many programming problems before specializing in any specific field. However, my main focus remains on back-end development because I feel that I have excelled in this aspect, and I enjoy working with databases. I have over a year of experience in this field and have developed several projects during this time.
+    My goals are to excel in the software industry and continually expand my skills and knowledge.
+    `;
     document.getElementById("about_btn1").innerHTML = `  Download CV`;
     document.getElementById("about_btn2").innerHTML = `  Contact me`;
     document.getElementById("about_my_self").innerHTML = ` 
@@ -275,19 +263,7 @@ function english() {
     document.getElementById("button_portfolio_system").innerHTML = `Systems`;
     document.getElementById("button_portfolio_mobile").innerHTML = `Mobile
     Application`;
-    document.getElementById("Commercial_site").innerHTML = "Commercial site";
-    document.getElementById("E-commerce1").innerHTML = "E-commerce";
-    document.getElementById("E-commerce2").innerHTML = "E-commerce";
-    document.getElementById("Web_Server1").innerHTML = "Web Server";
-    document.getElementById("Web_Server2").innerHTML = "Web Server";
-    document.getElementById("Mobile_Application1").innerHTML = "Mobile Application";
-    document.getElementById("Mobile_Application2").innerHTML = "Mobile Application";
-    document.getElementById("Control_Panel1").innerHTML = "Control Panel";
-    document.getElementById("Control_Panel2").innerHTML = "Control Panel";
-    document.getElementById("Educational_site1").innerHTML = "Educational site";
-    document.getElementById("Educational_site2").innerHTML = "Educational site";
-    document.getElementById("Sales_system").innerHTML = "Sales system";
-    
+
     document.getElementById("contact_me").innerHTML = `contact<span class="title2"> Me</span>`;
     document.getElementById("contact_me_content").innerHTML = `Fill Out The Contact Form To
     Contact me
@@ -364,26 +340,26 @@ function english() {
     `;
     document.getElementById("Created_by").innerHTML = `  &copy; Created by <a href="index.html">Osama Zayed</a>`;
 
-//     document.getElementById("loding").innerHTML = `
-//     <div class="text-center ">
-//     <p class="loader-letters" style="animation: var(--effect);">
-//         l</p>
-//     <p class="loader-letters" style="animation: var(--effect) .125s;">
-//         o</p>
-//     <p class="loader-letters" style="animation: var(--effect) .25s;">
-//         a</p>
-//     <p class="loader-letters" style="animation: var(--effect) .375s;">
-//         d</p>
-//     <p class="loader-letters" style="animation: var(--effect) .5s;">
-//         i</p>
-//     <p class="loader-letters" style="animation: var(--effect) .675s;">
-//         n</p>
-//     <p class="loader-letters" style="animation: var(--effect) .75s;">
-//         g</p>
-// </div>
-// <div class="loader text-center " style="animation: rotate 1s infinite; height: 50px; width: 50px;"></div>
+    //     document.getElementById("loding").innerHTML = `
+    //     <div class="text-center ">
+    //     <p class="loader-letters" style="animation: var(--effect);">
+    //         l</p>
+    //     <p class="loader-letters" style="animation: var(--effect) .125s;">
+    //         o</p>
+    //     <p class="loader-letters" style="animation: var(--effect) .25s;">
+    //         a</p>
+    //     <p class="loader-letters" style="animation: var(--effect) .375s;">
+    //         d</p>
+    //     <p class="loader-letters" style="animation: var(--effect) .5s;">
+    //         i</p>
+    //     <p class="loader-letters" style="animation: var(--effect) .675s;">
+    //         n</p>
+    //     <p class="loader-letters" style="animation: var(--effect) .75s;">
+    //         g</p>
+    // </div>
+    // <div class="loader text-center " style="animation: rotate 1s infinite; height: 50px; width: 50px;"></div>
 
-//     `;
+    //     `;
 
     // document.getElementById("large").innerHTML = "";
 }
