@@ -8,4 +8,4 @@ File Structure index.html: The main HTML file for displaying the main content of
 
 Contact Information To get in touch with me or for more information, please use the following details:
 
-Name: Osama Zayed Email: Osama0zayed@gmail.com Website: https://osama-zayed.github.io/portfolio)https://osama-zayed.github.io/portfolio
+Name: Osama Zayed Email: Osama0zayed@gmail.com Website: https://osama-zayed.github.io/portfolio
