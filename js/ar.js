@@ -72,8 +72,8 @@ function arabic() {
     document.getElementById("my_portfolio_content").innerHTML = " بعض المشاريع التي تم الانتهاء منها سابقا وسيتم إضافة المزيد من المشاريع في المستقبل.";
     document.getElementById("service_system").innerHTML = "تطوير الانظمة";
     document.getElementById("service_system_content").innerHTML = " تحليل متطلبات العملاء وتصميم نظام يلبي احتياجاتهم.";
-    document.getElementById("service_Mobile").innerHTML = "تطبيقات الموبايل";
-    document.getElementById("service_Mobile_content").innerHTML = "  تطبيقات Android و IOS سلسة وأنيقة وسهلة الاستخدام.";
+    document.getElementById("service_Mobile").innerHTML = "واجهات برمجة التطبيقات (RESTful API) ولوحة تحكم التطبيقات";
+    document.getElementById("service_Mobile_content").innerHTML = "واجهة برمجة تطبيقات (RESTful API) آمنة وقابلة للتطوير ، إلى جانب لوحة معلومات تطبيق قوية لإدارة تطبيقاتك.";
     document.getElementById("service_Web").innerHTML = "تطوير المواقع";
     document.getElementById("service_Web_content").innerHTML = "مواقع وتطبيقات الويب سريعة الاستجابة وتعمل على جميع الاجهزه ";
     document.getElementById("button_portfolio_all").innerHTML = `الكل`;
@@ -253,9 +253,9 @@ function english() {
     document.getElementById("my_portfolio_content").innerHTML = "  These are some of the projects that have been previously completed and more projects will be added  in the future.";
     document.getElementById("service_system").innerHTML = "Systems";
     document.getElementById("service_system_content").innerHTML = "   Analyzing customer requirements and designing a system that meets their needs.";
-    document.getElementById("service_Mobile").innerHTML = "Mobile Application";
+    document.getElementById("service_Mobile").innerHTML = "RESTful API and Application Dashboard";
 
-    document.getElementById("service_Mobile_content").innerHTML = "Android and IOS Applications that are smooth, stylish, and user-friendly.";
+    document.getElementById("service_Mobile_content").innerHTML = "Secure and scalable RESTful API, along with a powerful application dashboard for managing your applications.";
     document.getElementById("service_Web").innerHTML = "Web Development";
     document.getElementById("service_Web_content").innerHTML = "       Websites and Web Applications that are responsive, elegant, and compatible.";
     document.getElementById("button_portfolio_all").innerHTML = `ALL`;
